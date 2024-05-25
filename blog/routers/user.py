@@ -7,8 +7,7 @@ from ..hashing import pwd_cxt, Hash
 
 
 router = APIRouter(
-    tags=['user'],
-    prefix='/user'
+    tags=['users'],
 )
 
 @router.get('/{id}', response_model=schemas.ShowUser)
