@@ -6,7 +6,7 @@ from . import database
 
 
 
-SQLALCHEMY_DATABASE_URL = 'postgresql://postgres:python$_venv@localhost/ApiDb'
+SQLALCHEMY_DATABASE_URL = 'postgresql://postgres:pasword@localhost/ApiDb'
 
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
